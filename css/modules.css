@@ -1,58 +1,61 @@
 div {
+  text-align: center;
+}
+@media only screen and (min-width: 768px) {
+
+
+.a {
+  line-height: 100px;
+}
+
+.b {
+  line-height: 600px;
+}
+
+.c,
+.d {
+  line-height: 200px;
+}
+
+.e,
+.f,
+.g,
+.h {
+  line-height: 250px;
+}
+
+.i {
+  line-height: 150px;
+}
+}
+/* ------- for Mobile ---------  */
+@media screen and (max-width: 600px) {
+  div {
     text-align: center;
   }
-  
+
   .a {
-    line-height: 100px;
+    line-height: 75px;
   }
-  
+
   .b {
-    line-height: 600px;
+    line-height: 150px;
   }
-  
+
   .c,
   .d {
-    line-height: 200px;
+    line-height: 125px;
   }
-  
+
   .e,
   .f,
   .g,
   .h {
     line-height: 250px;
   }
-  
+
   .i {
-    line-height: 150px;
+    line-height: 80px;
   }
-  
-  @media screen and (max-width: 768px) {
-    div {
-      text-align: center;
-    }
-  
-    .a {
-      line-height: 75px;
-    }
-  
-    .b {
-      line-height: 150px;
-    }
-  
-    .c,
-    .d {
-      line-height: 125px;
-    }
-  
-    .e,
-    .f,
-    .g,
-    .h {
-      line-height: 250px;
-    }
-  
-    .i {
-      line-height: 80px;
-    }
-  }
+}
   
