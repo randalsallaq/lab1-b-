@@ -1,13 +1,15 @@
 .a {
     width: 960px;
     height: 100px;
-    
+    background-color:#1a000d ;
+    color: white;
   }
   
   .b {
     width: 200px;
     height: 600px;
     float: left;
+    background-color: #660033;
    
   }
   
@@ -15,6 +17,7 @@
     float: left;
     width: 380px;
     height: 200px;
+    background-color: #b30059;
    
   }
   
@@ -22,26 +25,29 @@
     float: right;
     width: 380px;
     height: 200px;
+    background-color: #e60073;
   }
   
   .e {
     float: left;
+    background-color: #ff3399;
   
   }
   
   .f {
     float: left;
+    background-color: #ff66b3;
     
   }
   
   .g {
     float: left;
-   
+   background-color: #ff99cc;
   }
   
   .h {
     float: left;
-  
+  background-color: #ffe6f2;
   }
   
   .e,
@@ -56,7 +62,8 @@
     width: 760px;
     height: 150px;
     float: left;
-    
+    background-color: #000000;
+    color: white;
   }
   
   div {
