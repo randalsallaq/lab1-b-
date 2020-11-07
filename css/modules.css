@@ -1,0 +1,58 @@
+div {
+    text-align: center;
+  }
+  
+  .a {
+    line-height: 100px;
+  }
+  
+  .b {
+    line-height: 600px;
+  }
+  
+  .c,
+  .d {
+    line-height: 200px;
+  }
+  
+  .e,
+  .f,
+  .g,
+  .h {
+    line-height: 250px;
+  }
+  
+  .i {
+    line-height: 150px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    div {
+      text-align: center;
+    }
+  
+    .a {
+      line-height: 75px;
+    }
+  
+    .b {
+      line-height: 150px;
+    }
+  
+    .c,
+    .d {
+      line-height: 125px;
+    }
+  
+    .e,
+    .f,
+    .g,
+    .h {
+      line-height: 250px;
+    }
+  
+    .i {
+      line-height: 80px;
+    }
+  }
+  
